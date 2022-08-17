@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.banner {
+  padding: 3rem;
+}
+/** 在移动设备上，缩小 padding */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 1.5rem;
+  }
+}

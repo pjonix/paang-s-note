@@ -34,8 +34,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: '/',
           editUrl:
             'https://github.com/pjonix/paang-s-note/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -62,6 +61,7 @@ const config = {
           alt: 'Zenon',
           src: 'img/logo.svg',
         },
+        hideOnScroll: true,
         items: [
           {
             type: 'doc',
@@ -125,6 +125,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+      sidebar: {
+        hideable: true,
+        },
       },
     }),
 };
