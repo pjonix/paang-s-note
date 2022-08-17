@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Zenon's Note',
-  tagline: ''泽农在此,
-  url: 'https://zenon.im',
+  title: 'zenon notes',
+  tagline: '泽农在此',
+  url: 'https://www.zenon.im',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
